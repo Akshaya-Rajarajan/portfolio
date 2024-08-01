@@ -1,12 +1,11 @@
 import HeroImg from '../assets/hero.png';
-import { AiOutlineGithub, AiOutlineFacebook, AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 export default function Hero() {
     const config  = {
-        subtitle: 'Im a Full-stack developer',
+        subtitle: 'I am a Full-stack developer. Proficient with Java, React, Hibernate, JPA, Spring Boot, Microservices, OOPs Concepts, Oracle, MySQL and PostgreSQL. Skilled in Python, Data Pre-processing, Data Analysis, Machine Learning, NLP, LLM, and Generative AI. ',
         social: {
             github: 'https://github.com/Akshaya-Rajarajan',
-            facebook: 'https://facebook.com/jvlcode',
             linkedin: 'https://www.linkedin.com/in/akshaya-rajarajan-b957321a5/'
         }
     }
@@ -19,7 +18,6 @@ export default function Hero() {
             </h1>
             <div className='flex py-10'>
                 <a href={config.social.github} className='pr-5 hover:text-white'><AiOutlineGithub size={40} /></a>
-                <a href={config.social.facebook} className='pr-5 hover:text-white'><AiOutlineFacebook size={40}/></a>
                 <a href={config.social.linkedin} className='hover:text-white'><AiOutlineLinkedin size={40}/></a>
             </div>
        </div>
